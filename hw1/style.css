@@ -1,0 +1,49 @@
+/* strle.css */
+
+
+
+a.menu{
+    width: 170px;
+    height: 170px;
+    background: url(image/socialmedia.jpg) no-repeat;
+    display: inline-block;
+
+}
+
+#bear{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #000;
+    background:url(image/bear.jpg) no-repeat;
+    background-position: -60px -30px;
+
+}
+
+a#twitter{
+    width: 170px;
+    height: 170px;
+    background: url(image/socialmedia.jpg) no-repeat;
+    display: inline-block;
+    background-position-x: -200px;
+    background-position-y: -180px;
+
+
+}
+
+a#twitter:hover{
+    background-position-y: -190px;
+
+}
+
+a#facebook{
+    width: 170px;
+    height: 170px;
+    background: url(image/socialmedia.jpg) no-repeat;
+    display: inline-block;
+    background-position-x: -543px;
+    background-position-y: -180px;
+}
+a#facebook:hover{
+    background-position-y: -190px;
+
+}
