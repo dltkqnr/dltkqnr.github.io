@@ -1,0 +1,116 @@
+
+body{
+
+background-color: #6482D1;
+
+
+}
+
+div {
+    
+    width: 60px;
+    height: 70px;
+    padding: 10px;
+    border: 10px black;
+    margin-left: 690px;
+    margin-right: auto;
+    margin-top:  auto;
+
+}
+
+p {
+text-align: center;
+font-size: 20px;
+
+}
+
+a {
+    text-align: center;
+    
+    }
+.sns1 {
+
+    margin-left: 700px;
+}
+a.menu{
+    width: 170px;
+    height: 170px;
+    background: url(img/homework.jpg);
+    display: inline block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 15px;
+}
+
+a#hw1 {
+    width: 100px;
+    height: 110px;
+    background: url(img/homework.jpg) no-repeat;
+    display: inline-block;
+    background-position-x: -70px;
+    background-position-y: -90px;
+    margin-left: 450px;
+}
+
+a#hw1:hover{
+    background-position-y: -800px;
+
+}
+
+a#hw2 {
+    width: 100px;
+    height: 110px;
+    background: url(img/homework.jpg) no-repeat;
+    display: inline-block;
+    background-position-x: -260px;
+    background-position-y: -90px;
+
+}
+a#hw2:hover{
+    background-position-x: -260px;
+    background-position-y: -800px;
+
+}
+a#hw3 {
+    width: 100px;
+    height: 110px;
+    background: url(img/homework.jpg) no-repeat;
+    display: inline-block;
+    background-position-x: -450px;
+    background-position-y: -90px;
+
+}
+a#hw3:hover{
+    background-position-x: -450px;
+    background-position-y: -800px;
+
+}
+a#hw4 {
+    width: 100px;
+    height: 110px;
+    background: url(img/homework.jpg) no-repeat;
+    display: inline-block;
+    background-position-x: -640px;
+    background-position-y: -90px;
+
+}
+a#hw4:hover{
+    background-position-x: -640px;
+    background-position-y: -800px;
+
+}
+a#hw5 {
+    width: 100px;
+    height: 110px;
+    background: url(img/homework.jpg) no-repeat;
+    display: inline-block;
+    background-position-x: -830px;
+    background-position-y: -90px;
+
+}
+a#hw5:hover{
+    background-position-x: -830px;
+    background-position-y: -800px;
+
+}
