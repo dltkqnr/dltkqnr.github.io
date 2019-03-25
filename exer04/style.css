@@ -1,0 +1,100 @@
+body {
+    animation: nicebackground 30s ease infinite;
+    background: linear-gradient(227deg, #19d5a5, #145d4b, #141c5d);
+    background-size: 600% 600%;
+
+}
+
+
+@keyframes nicebackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+#main{
+    min-width: 300px;
+    max-width:  1024px;
+    margin: auto;
+
+}
+
+#content {
+    min-height: 500px;
+
+}
+.title {
+text-align: center;
+color: #fee;
+animation-name: titleAnimate;
+animation-delay: 3s;
+animation-duration: 2s;
+animation-iteration-count: 1;
+position: relative;
+top: -500px;
+animation-fill-mode: forwards;
+
+}
+
+@keyframes titleAnimate {
+    0%{
+        top: -500px;
+    }
+    80%{
+        top: 0px;
+    }
+    90%{
+        top: -100px;
+    }
+    95%{
+        top: 0px;
+    }
+    98%{
+        top:20px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+
+#content p{
+    color: #ffe;
+    
+
+}
+
+.brand {
+
+color: #ff0;
+animation-name: intro;
+animation-delay: 1s;
+animation-duration: 2s;
+animation-iteration-count: 1;
+position: relative;
+left: -500px;
+animation-fill-mode: forwards;
+}
+
+
+@keyframes intro {
+    0%{
+        left: -500px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+
+.food{
+display: flex;
+
+
+}
+
+@media screen (min-width:600px;){
+    .food{
+        display: flex;
+
+}
+
+}
