@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>midterm-project</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src=app.js></script>
+</head>
+
+<body>
+<div id="all">
+
+    <div id="header" >
+    <svg class="headsvg" width="85" height="93">
+
+     <rect class="svgrect" x="10" y="20"  width="70" height="70"></rect>
+      <text class="svgtext"  x="27" y="68">박</text>
+
+    </svg>
+
+    <svg class="headsvg" width="85" height="93" >
+
+  <rect class="svgrect" x="10" y="20"  width="70" height="70"></rect>
+  <text class="svgtext"  x="27" y="68">지</text>
+
+    </svg>
+
+    <svg class="headsvg" width="85" height="93" >
+
+  <rect class="svgrect"
+  x="10" y="20"  width="70" height="70"></rect>
+
+   <text class="svgtext"  x="27" y="68">수</text>
+
+    </svg>
+    <br> <p id="International">International Company</p>
+    </div>
+
+<h1>Product Information</h1>
+    <div id="main">
+        <div id=entry>
+             <div>
+                  Name
+                  <input type="text" id="name" placeholder="이름">
+             </div>
+             <div>
+                  Price
+                   <input type="number" id="price" placeholder="가격">
+             </div>
+             <div>
+                  <button id="save">Save</button>
+             </div>
+        </div>
+        
+        <br>
+    </div>
+        <div id="table">
+        <table width="100%" border="1">
+                <tr>
+                <th><button id="idbutton" class="trbutton">▼ ID</button></th>
+                <th><button id="namebutton" class="trbutton">▼ NAME</button></th>
+                <th><button id="pricebutton" class="trbutton">▼ PRICE</button></th>
+                </tr>
+            <tbody id="tbodydata" onkeydown="PressKey(event)">
+
+
+            </tbody>
+
+
+
+        </table>
+        </div>
+    </div>
+    <div id="Bottom">
+        ⓒ2018. 박지수™
+    </div>
+
+ 
+
+</body>
+
+</html>
