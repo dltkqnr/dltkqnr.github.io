@@ -154,24 +154,8 @@ function sortPRICE() {
 }
 /*=============================================================================================*/
 
-
-function editData(){
-        for(i = 0; i < data.length; i++){
-
-            nameNode = document.querySelector(
-                "#tbodydata tr:nth-child("+(i+1)+") td:nth-child(2) input");
-            priceNode = document.querySelector(
-                "#tbodydata tr:nth-child("+(i+1)+") td:nth-child(3) input");
-            data[i].NAME = nameNode.value;
-            data[i].PRICE = priceNode.value;
-
-        }
-}
-
-                
 function PressKey(event){
-    //alert(event.keyCode);
-    
+
     if(event.keyCode == 13){
         editData();
     }
@@ -179,4 +163,13 @@ function PressKey(event){
         showData();
     }
     }
+    
+
+
+function editData(){
+
+        }
+
+
+
     
