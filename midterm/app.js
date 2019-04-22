@@ -156,20 +156,26 @@ function sortPRICE() {
 
 function PressKey(event){
 
-    if(event.keyCode == 13){
+    if(event.keyCode == 13){ /*enter*/
         editData();
     }
-    if(event.keyCode == 27){
+    if(event.keyCode == 27){/*esc*/
         showData();
     }
     }
     
 
 
-function editData(){
+    function editData(){
+        for(i = 0; i < data.length; i++){
 
+            nameNode = document.querySelector(
+                "#tableData tr:nth-child("+(i+1)+") td:nth-child(2) input");
+            priceNode = document.querySelector(
+                "#tableData tr:nth-child("+(i+1)+") td:nth-child(3) input");
+            
+            data[i].NAME = nameNode.value;
+            data[i].PRICE = priceNode.value;
         }
-
-
-
+    }
     
