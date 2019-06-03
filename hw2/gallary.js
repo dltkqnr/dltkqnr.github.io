@@ -3,9 +3,16 @@
 /*gallery.js */
 
 var images = [];
-images.push("img/img1.jpg");
-images.push("img/img2.jpg");
-images.push("img/img3.jpg");
+images.push("img/bear1.jpg");
+images.push("img/bear2.jpg");
+images.push("img/bear3.jpg");
+images.push("img/bear4.jpg");
+images.push("img/bear5.jpg");
+images.push("img/bear6.jpg");
+images.push("img/bear7.jpg");
+images.push("img/tiger8.jpg");
+images.push("img/tiger9.jpg");
+images.push("img/tiger10.jpg");
 
 currentImage = 0;
 
